@@ -1,37 +1,40 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-#logo{
+#logo {
   width: 100%;
 }
-#cart{
+#cart {
   position: absolute;
   right: 50px;
 }
-#heart{
+#heart {
   position: absolute;
   right: 100px;
 }
-#search{
+#search {
   position: absolute;
   right: 150px;
 }
-#hom_nav{
+#hom_nav {
   position: fixed;
   left: 100px;
 }
-#footer{
-  position: absolute;
+#footer {
+  position: static;
   bottom: 0;
   width: 100%;
   height: 50px;
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
 }
-#navbarNav{
+#search,
+#heart,
+#cart {
   color: #aaafb8;
 }
-#navbarNav .footer_list li {
+#navbarNav_footer .footer_list li {
   color: #aaafb8;
   list-style: none;
   display: inline-block;
@@ -39,11 +42,11 @@
   margin-top: 10px;
   position: relative;
 }
-#navbarNav .footer_list li:hover{
+#navbarNav_footer .footer_list li:hover {
   color: rgb(255, 33, 33);
 }
-#navbarNav .footer_list li:hover::after{
-  content: '';
+#navbarNav_footer .footer_list li:hover::after {
+  content: "";
   height: 3px;
   width: 100%;
   background: red;
@@ -52,5 +55,68 @@
   top: -10px;
   transition: 0.5s;
 }
-
-
+.cat_header {
+  margin: 20px 60px;
+}
+#cat_img_game,
+#cat_img_ride,
+#cat_img_fun,
+#cat_img_jocker {
+  width: 42px;
+  height: 41px;
+  margin: 6px 80px;
+  /* clear: left; */
+}
+#home_cat_row ul li {
+  /* display: inline-block; */
+  float: left;
+  list-style: none;
+  /* margin: 7px -12px; */
+  justify-content: space-around;
+}
+#cat_img_game {
+  background: rgb(200, 233, 233);
+  padding: 10px;
+  border-radius: 50px;
+}
+#cat_img_ride {
+  background: rgb(243, 207, 233);
+  padding: 10px;
+  border-radius: 50px;
+}
+#cat_img_fun {
+  background: rgb(250, 172, 228);
+  padding: 10px;
+  border-radius: 50px;
+}
+#cat_img_jocker {
+  background: rgb(169, 190, 195);
+  padding: 10px;
+  border-radius: 50px;
+}
+section .navigation {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: -16px;
+  padding: 10px;
+}
+.nav-item1{
+  color: #55637d;
+}
+.nav-item2 {
+  margin: 20px;
+  margin-left: -89px;
+}
+#header_bars{
+  margin-top: -44px;
+}
+.hp_li_1{
+  margin-left: 5px;
+  }
+.hp_li_2{
+padding-left: 36px;
+}
+.hp_li_3{
+  padding-left: 36px;
+  }
