@@ -37,16 +37,16 @@ const HomePage = () => {
                     <li className='hp_li_5'>Carnival Decor</li>
                 </ul>
             </section>
-            {/* <section>
+            {/* <section className='pic_section'>
                 <ul>
                     <li>
-                        <img src="" alt="" />
+                        <img src="https://i.pinimg.com/474x/1a/3a/ed/1a3aed9a5e1df4fbc34e22e641610300.jpg" alt="" />
                     </li>
                     <li>
-                        <img src="" alt="" />
+                        <img src="https://i.pinimg.com/474x/1a/3a/ed/1a3aed9a5e1df4fbc34e22e641610300.jpg" alt="" />
                     </li>
                     <li>
-                        <img src="" alt="" />
+                        <img src="https://i.pinimg.com/474x/1a/3a/ed/1a3aed9a5e1df4fbc34e22e641610300.jpg" alt="" />
                     </li>
                 </ul>
             </section> */}

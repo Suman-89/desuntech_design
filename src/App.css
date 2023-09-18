@@ -101,22 +101,29 @@ section .navigation {
   margin-top: -16px;
   padding: 10px;
 }
-.nav-item1{
+.nav-item1 {
   color: #55637d;
 }
 .nav-item2 {
   margin: 20px;
   margin-left: -89px;
 }
-#header_bars{
+#header_bars {
   margin-top: -44px;
 }
-.hp_li_1{
+.hp_li_1 {
   margin-left: 5px;
-  }
-.hp_li_2{
-padding-left: 36px;
 }
-.hp_li_3{
+.hp_li_2 {
   padding-left: 36px;
-  }
+}
+.hp_li_3 {
+  padding-left: 36px;
+}
+/* .pic_section ul li {
+  flex-direction: column;
+  float: left;
+  list-style: none;
+  width: 50px;
+  height: 150px;
+} */
